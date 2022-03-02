@@ -1,0 +1,330 @@
+/*====================
+=======Structure======
+======================*/
+
+body{
+    background-color: rgb(188, 188, 243);
+    display:flex; 
+    flex-direction:column;    
+    margin: 1em auto;
+    min-height: 100vh;
+    width: 100%;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+main{
+    margin: 0 auto;
+    position: relative;
+    top: 30vh;
+    width: 90%;
+}
+
+footer{
+    margin-top: auto; 
+    width: 100%;
+}
+/*====================
+========main==========
+======================*/
+
+.text h2{
+    text-align:center;
+    position: relative;
+    bottom: 1.5em;
+
+}
+
+
+
+.one-column-aside{
+    width: 100%;
+    display:flex;
+
+}
+
+.main-column{
+    width: 48%;
+    padding:0 4em
+    
+}
+.column{
+    padding-left: 10em;
+    float:
+}
+
+.column p{
+    floa
+}
+
+.email-img {
+    width: %;
+}
+
+.email-text{
+
+
+}
+
+.location-img{
+
+
+}
+
+.location-text{
+
+
+}
+
+.aside-column{
+
+    padding: 0 10em;
+    
+
+
+}
+
+.main-table{
+    
+}
+
+
+
+
+
+/*====================
+========Columns=======
+======================*/
+.desktop-one-column{
+    width: 100%;
+}
+
+.desktop-one-column .column{
+    width: 100%;
+}
+
+.desktop-two-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns .column{
+    width: 48%;
+}
+
+.desktop-two-columns-aside{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns-aside .column-aside{
+    width: 30%;
+}
+
+.desktop-two-columns-aside .column-main{
+    width: 65%;
+}
+
+.desktop-two-columns-inline{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns-inline .column{
+    width: 48%;
+}
+
+.desktop-two-columns-inline .column div{
+    display: flex;
+    margin-right: 1em;
+}
+
+.desktop-three-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-three-columns .column{
+    width: 30%;
+}
+
+.desktop-four-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-four-columns .column{
+    width: 22%;
+}
+/*====================
+======Typography======
+======================*/
+
+h1{
+    color:hsl(0, 20%, 95%)
+}
+
+h2, h3, h4, h5, h6, a, p{
+    color: hsl(0, 0%, 100%);
+}
+
+h1, h2, h3, h4 {
+    font-family: "Ubuntu";
+}
+
+h5, h6 {
+    font-family: "Ubuntu Condensed";
+}
+
+a, td, p, button{
+    font-family: "Ubuntu";
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h4 {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+a:focus, a:hover {
+    outline: none;
+    outline-offset: 0;
+    text-decoration: none;
+}
+/*====================
+========Image=========
+======================*/
+img {
+    max-width: 100%;
+}
+/*====================
+========Logo=========
+======================*/
+.logo{
+    width: 4%;
+}
+
+.logo svg{
+    height: 4rem;
+    width: 4rem;
+}
+
+.titulo {
+    text-align: center;
+    margin: auto;
+}
+
+
+
+@media (max-width:479px) {
+
+    header{
+            height: max-content;
+        }
+    footer{
+        height: max-content;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+        height: 1em;
+        width: 1em;
+        font-size:small;
+        width: auto;
+        margin: auto;
+    }
+
+    .logo{
+        height: max-content;
+    }
+
+    .logo svg{
+        height: 2em;
+        width: 2em;
+    }
+    
+    .portada-titulo{
+        left: 25%;
+    }
+
+    .portada-titulo h2{
+        font-size: 1em;
+    }
+
+    .destacados-titulo h2{
+        font-size: 2em;
+    }
+    
+    .destacados-fichas{
+        flex-direction: column; 
+        width: 100%;
+    }
+
+    .destacados-ficha{
+        margin: 1em 0;
+        width: 100%;
+    }
+    
+    .destacados-ficha-imagen{
+        background: tomato;
+    }
+
+    .destacados-ficha-titulo{
+        margin: 1em 0;
+    }
+
+
+    .destacados-ficha-titulo h3{
+        text-align:center;
+    }
+    .logo{
+        width: 10%;
+    }
+
+    .presentacion{
+        width: 100%;
+        margin: 10em,0;
+    }
+
+    .presentacion-imagen {
+        text-align: center;
+        background-color:aqua;
+        margin: auto;
+        
+        
+    }
+
+}
