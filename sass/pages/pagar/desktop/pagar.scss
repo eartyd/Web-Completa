@@ -1,0 +1,87 @@
+/*====================
+=======Basket=========
+======================*/
+
+.basket{
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.basket-title{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.basket-title h2{
+    text-align: center;
+}
+
+.basket-table table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.basket-table table th{
+    border-bottom: 0.2rem solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Ubuntu';
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-align: center;
+}
+
+.basket-table table td{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Ubuntu';
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.basket-table table td .plus-minus-button{
+    height: 40;
+    justify-content: center;
+}
+
+.basket-resume{
+    border: 0.1rem solid hsl(0, 0%, 100%);
+    margin-left: auto;
+    margin-top: 5rem;
+    width: 30%;
+}
+
+.basket-resume-title{
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+    padding: 0.5rem 2rem;
+}
+
+.basket-resume-title h3{
+    color: hsl(226, 63%, 45%);
+    text-align: center;
+}
+
+.basket-resume-element{
+    padding: 0 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.basket-resume-element h3{
+    text-align: center;
+}
+
+#basket-resume-element-total{
+    border-top: 0.1rem solid hsl(0, 0%, 100%);
+    padding-top: 0.5rem;
+}
+
+.basket-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: auto;
+    width: 30%;
+}

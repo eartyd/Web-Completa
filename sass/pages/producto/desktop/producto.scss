@@ -1,0 +1,60 @@
+/*====================
+    ======Products=========
+    ======================*/
+
+
+    .products{
+        margin: 4rem auto;
+        width: 90%;
+    }
+    
+    .products-image-gallery{
+        margin: 2rem 10%;
+        width: 80%;
+    }
+    .products-image-gallery img{
+    }
+    
+    .products-image-gallery-element{
+        cursor: pointer;
+    }
+    
+    .products-info-title{
+        margin-bottom: 1rem;
+    }
+    
+    .products-info-price{
+        margin-bottom: 1rem;
+    }
+    
+    .products-info-description{
+        margin-bottom: 1rem;
+    }
+    
+    .products-info-description p{
+        margin-bottom: 0.5rem;
+        text-align: justify;
+    }
+    
+    .products-info-plus-minus{
+        display: flex;
+        margin: 3rem 0;
+    }
+    
+    .products-info-plus-minus-title{
+        margin-right: 3rem;
+    }
+    
+    .products-info-plus-minus-title span{
+        color: hsl(0, 0%, 100%);
+        font-weight: 600;
+    }
+    
+    
+    .category{
+        border: none;
+    }
+
+    .products-description{
+        margin-bottom: 1em;
+    }

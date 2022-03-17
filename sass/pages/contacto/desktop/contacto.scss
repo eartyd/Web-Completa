@@ -1,0 +1,87 @@
+.contacto{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.contacto-titulo{
+    margin-bottom:4rem;
+}
+
+.contacto-titulo h2{
+    font-size:3em;
+    text-align: center;
+
+}
+
+.informacion-contacto-icono{
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.informacion-contacto-icono svg{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.informacion-contacto-icono svg path{
+    fill: hsl(0, 0%, 100%);
+}
+
+.informacion-contacto-texto{
+    display: inline;
+}
+
+.informacion-contacto-texto span{
+    font-size: 1.5em;
+}
+
+.contacto-formulario-elemento{
+    margin-bottom: 1rem;
+}
+
+.contacto-formulario-elemento-label{
+    margin-bottom: 0.5rem;
+}
+
+.contacto-formulario-elemento-label label{
+    font-size: 1.2rem;
+}
+
+.contacto-formulario-elemento-input input{
+    border: solid;
+    border-color: black;
+    padding: 0.5rem 2%;
+    width: 96%;
+}
+
+.contacto-formulario-elemento-input textarea{
+    height: 10em;
+    border: solid;
+    border-color: black;
+    padding: 2%;
+    width: 96%;
+}
+
+.contacto-formulario-elemento-button{
+    float: right;
+    width: max-content;
+}
+
+.contacto-formulario-elemento-button button{
+    background-color: cornflowerblue;
+    border: 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.5rem 1rem;   
+}
+
+.contacto-formulario-elemento-button button:hover{
+    background-color: rgb(2, 87, 245);
+    color: hsl(0, 0%, 100%);
+}
+
+.presentacion-imagen img{
+    display:block;
+    margin:auto;
+}
