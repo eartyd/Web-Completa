@@ -1,0 +1,60 @@
+#hamburger-wrapper {
+    display: flex;
+    align-items: center;
+    width: 3em;
+    height: 2em;
+    margin: 0;
+    padding: 0;
+}
+.burger {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burger,
+.burger:before,
+.burger:after {
+    padding: 0;
+    background-color: black;
+    width: 80%;
+    height: 8px;
+    transition: margin .1s .2s, transform .2s;
+}
+
+.burger:before,
+.burger:after {
+    margin: 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.burger:before {
+    margin-top: -1em;
+}
+
+.burger:after {
+    margin-top: 1em;
+}
+
+.open .burger {
+    transform: rotate(45deg);
+}
+
+.open .burger,
+.open .burger:before,
+.open .burger:after {
+    transition: margin .2s, transform .1s .2s;
+}
+
+.open .burger:before,
+.open .burger:after {
+    margin-top: 0;
+}
+
+.open .burger:after {
+    transform: rotate(-90deg)
+}

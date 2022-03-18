@@ -1,0 +1,113 @@
+
+.checkout{
+    margin: 2rem auto 4rem auto;
+    width: 90%;
+}
+
+.checkout-title{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.checkout-title h2{
+    text-align: center;
+}
+
+.checkout-form{
+    border-right: 0.1rem solid hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem 15%;
+    width: 70%;
+}
+
+.checkout-form-element{
+    margin-bottom: 1rem;
+}
+
+.checkout-form-element .checkout-form-label{
+    margin-bottom: 0.5rem;
+}
+
+.checkout-form-element .checkout-form-label label{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.checkout-form-element .checkout-form-input input{
+    padding: 0.2rem 1rem;
+    width: 100%;
+}
+
+.checkout-form-element .checkout-form-input input:focus{
+    outline: none;
+}
+
+.checkout-form-element .checkout-form-input select{
+    font-family: 'Ubuntu';
+    font-weight: 600;
+    padding: 0.2rem 1rem;
+    width: 100%;
+}
+
+.checkout-submit{
+    padding: 1rem 10%;
+    width: 80%
+}
+
+.checkout-resume{
+    border: 0.1rem solid hsl(0, 0%, 100%);
+    margin-left: auto;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.checkout-resume-title{
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+    padding: 0.5rem 2rem;
+}
+
+.checkout-resume-title h3{
+    color: hsl(226, 63%, 45%);
+    text-align: center;
+}
+
+.checkout-resume-element{
+    padding: 0 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.checkout-resume-element h3{
+    text-align: center;
+}
+
+#checkout-resume-element-total{
+    border-top: 0.1rem solid hsl(0, 0%, 100%);
+    padding-top: 0.5rem;
+}
+
+.checkout-payment-form{
+    margin-top: 2rem;
+}
+
+.checkout-payment-form-element{
+    margin-bottom: 1rem;
+}
+
+.checkout-payent-form-radio,
+.checkout-payent-form-radio-label{
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.checkout-payent-form-radio-label label{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.checkout-payment-button{
+    margin-left: auto;
+    width: max-content;
+}
